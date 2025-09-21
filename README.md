@@ -13,7 +13,7 @@
 
 - 🌍 Currently learning **React, Rust, and Laravel**
 
-- 📩 Reach me **hello.isuladissanayake@gmail.com**
+- 📩 Reach me **isulacodes@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
