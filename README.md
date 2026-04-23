@@ -99,9 +99,11 @@
 <h3 align="center">Github Stats:</h3>
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=heyisula&locale=en&mode=daily&theme=gotham&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=heyisula&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gotham&hide_border=true&order=2" height="150" alt="languages graph"  />
+  
+![](./profile-3d-contrib/profile-night-green.svg)
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=heyisula&radius=16&theme=gotham&area=true&order=5&hide_border=true&hide_title=false" height="300" alt="activity-graph graph"  />
 </div>
+
 <br>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=heyisula&label=Profile%20views&color=0e75b6&style=flat" alt="heyisula" /> </p>
 
