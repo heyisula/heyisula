@@ -1,6 +1,6 @@
-<p align="center"><img src="https://images.steamusercontent.com/ugc/927050062777585885/AEC5A437B94650D9F62139F52117040158177373/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" width="800" /></p>
+<p align="center"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXcwbHF6N3pqNGxvYWJhbXM5M211OHh6Z2c5OTZkbzQwaXczYjg2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4QxQgWZHbeYwM/giphy.gif" width="900"/></p>
 <h1 align="center">Yoo, It's Your friendly neighborhood chaotic coder, anime obsessive, meme distributor</h1>
-<img align="right" alt="Coding" width="400" src="https://www.icegif.com/wp-content/uploads/2022/01/icegif-546.gif">
+<img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/cDZJ17fbzWVle68VCB/giphy.gif">
 
 
 - Experimenting with **AI, Automation and Robotics**
