@@ -68,7 +68,7 @@
 <br/>
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" />
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contributions" />
   <br/><br/>
   <img src="https://komarev.com/ghpvc/?username=heyisula&label=Profile%20views&color=0e75b6&style=flat" alt="heyisula" />
 </div>
