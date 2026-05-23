@@ -1,8 +1,6 @@
 name: Metrics
 
 on:
-  schedule:
-    - cron: "0 2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,17 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Languages
+      - name: Languages (basic)
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.plugin.languages.indepth.svg
           base: ""
           plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_details: lines, bytes-size
-          plugin_languages_limit: 4
-          plugin_languages_analysis_timeout: 30
+          plugin_languages_limit: 6
 
       - name: Isometric calendar
         uses: lowlighter/metrics@v3.34
@@ -44,4 +39,3 @@ jobs:
           plugin_habits_from: 100
           plugin_habits_days: 14
           plugin_habits_charts: yes
-          plugin_habits_trim: yes
