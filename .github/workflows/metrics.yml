@@ -9,10 +9,10 @@ permissions:
   contents: write
 
 jobs:
-  github-metrics:
+
+  languages:
     runs-on: ubuntu-latest
     steps:
-
       - name: Languages
         uses: lowlighter/metrics@v3.34
         with:
@@ -23,6 +23,10 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_details: percentage
 
+  isocalendar:
+    runs-on: ubuntu-latest
+    needs: languages
+    steps:
       - name: Isometric calendar
         uses: lowlighter/metrics@v3.34
         with:
@@ -32,6 +36,10 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+  habits:
+    runs-on: ubuntu-latest
+    needs: isocalendar
+    steps:
       - name: Coding habits
         uses: lowlighter/metrics@v3.34
         with:
@@ -39,7 +47,8 @@ jobs:
           filename: metrics.plugin.habits.svg
           base: ""
           plugin_habits: yes
-          plugin_habits_from: 200
+          plugin_habits_from: 50
+          plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           config_timezone: Asia/Colombo
