@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Languages indepth
-        uses: lowlighter/metrics@latest
+      - name: Languages
+        uses: lowlighter/metrics@v3
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.plugin.languages.indepth.svg
@@ -23,10 +23,10 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_details: lines, bytes-size
           plugin_languages_limit: 4
-          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout: 30
 
       - name: Isometric calendar
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.plugin.isocalendar.svg
@@ -35,13 +35,13 @@ jobs:
           plugin_isocalendar_duration: full-year
 
       - name: Coding habits
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.plugin.habits.svg
           base: ""
           plugin_habits: yes
-          plugin_habits_from: 200
+          plugin_habits_from: 100
           plugin_habits_days: 14
           plugin_habits_charts: yes
           plugin_habits_trim: yes
