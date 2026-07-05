@@ -9,7 +9,7 @@
     <td align="center" valign="middle" width="70%">
       <h1 style="margin-top: 0; margin-bottom: 8px;">Out Here Rewriting The Matrix</h1>
       <p style="margin-top: 0; margin-bottom: 12px;"><b>Anime obsessive · Meme trafficker · Chaotic coder</b></p>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=FF3399&center=true&vCenter=true&width=480&height=30&lines=Guessing+hyperparameters+until+it+works;Training+models%2C+not+expectations;Powered+by+coffee+and+anime+OSTs"
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=FF3399&center=true&vCenter=true&width=480&height=30&lines=Guessing+hyperparameters+until+it+works;Training+models%2C+not+expectations;Powered+by+coffee+and+anime+OSTs;Automating+life%2C+One+at+a+time"
            style="max-width: 100%;" alt="Typing SVG" />
       <p style="margin-top: 10px; margin-bottom: 15px;">
         <b>Arc Progression:</b> <a href="https://www.isula.me/" target="_blank">isula.me</a>
