@@ -1,9 +1,9 @@
-<div align="left">
+<div align="center">
 <table cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td align="center" valign="middle" width="290">
       <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN2dXZ3YXJob2JmM3l4Ynl3ZDUzb3lqejd0azB3NGdhd2o0bmxoZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" 
-           width="280" 
+           width="240" 
            style="border-radius: 12px; display: block; border: none; pointer-events: none;" 
            alt="Coding Cat" />
     </td>
