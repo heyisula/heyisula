@@ -84,10 +84,10 @@ contact: hello.isuladissanayake@gmail.com
 <table>
 <tr>
 <td align="center" width="230">
-<img src="https://streak-stats.demolab.com?user=heyisula&locale=en&mode=daily&theme=highcontrast&hide_border=true&border_radius=8" width="230" alt="streak stats" />
+<img src="https://streak-stats.demolab.com?user=heyisula&locale=en&mode=daily&theme=gotham&hide_border=true&border_radius=20" width="230" alt="streak stats" />
 </td>
 <td align="center" width="230">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=heyisula&radius=8&theme=high-contrast&area=true&hide_border=true&custom_title=Contribution%20Activity" width="230" alt="activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=heyisula&radius=8&theme=gotham&area=true&hide_border=true&border_radius=20&custom_title=Contribution%20Activity" width="230" alt="activity graph" />
 </td>
 <td rowspan="3" align="center" width="260">
 <img src="./github-metrics.svg" width="260" alt="GitHub metrics" />
@@ -95,18 +95,18 @@ contact: hello.isuladissanayake@gmail.com
 </tr>
 <tr>
 <td align="center">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heyisula&theme=github_dark" width="230" alt="profile details" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heyisula&theme=gotham" width="230" alt="profile details" />
 </td>
 <td align="center">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=heyisula&theme=github_dark&utcOffset=5.5" width="230" alt="productive time" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=heyisula&theme=gotham&utcOffset=5.5" width="230" alt="productive time" />
 </td>
 </tr>
 <tr>
 <td align="center">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heyisula&theme=github_dark" width="230" alt="repos per language" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heyisula&theme=gotham" width="230" alt="repos per language" />
 </td>
 <td align="center">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heyisula&theme=github_dark" width="230" alt="most commit language" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heyisula&theme=gotham" width="230" alt="most commit language" />
 </td>
 </tr>
 </table>
