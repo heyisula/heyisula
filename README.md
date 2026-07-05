@@ -1,26 +1,20 @@
 <div align="center">
-<table cellspacing="0" cellpadding="0" border="0">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
   <tr>
-    <td align="center" valign="middle" width="290">
-      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN2dXZ3YXJob2JmM3l4Ynl3ZDUzb3lqejd0azB3NGdhd2o0bmxoZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" 
-           width="240" 
-           style="border-radius: 12px; display: block; border: none; pointer-events: none;" 
+    <td align="center" valign="middle" width="30%">
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN2dXZ3YXJob2JmM3l4Ynl3ZDUzb3lqejd0azB3NGdhd2o0bmxoZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"
+           style="max-width: 220px; width: 100%; border-radius: 12px; display: block; border: none; pointer-events: none;"
            alt="Coding Cat" />
     </td>
-    <td align="center" valign="middle">
-      <table cellspacing="0" cellpadding="0" border="0" style="border: none;">
-        <tr>
-          <td align="center" style="border: none; padding-left: 15px;">
-            <h1 style="margin-top: 0; margin-bottom: 8px;">Out Here Rewriting The Matrix</h1>
-            <p style="margin-top: 0; margin-bottom: 12px;"><b>Anime obsessive · Meme trafficker · Chaotic coder</b></p>
-            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=FF3399&center=true&vCenter=true&width=560&height=30&lines=Guessing+hyperparameters+until+it+works;Training+models%2C+not+expectations;Powered+by+coffee+and+anime+OSTs" alt="Typing SVG" />
-            <p style="margin-top: 10px; margin-bottom: 15px;">
-              <b>Arc Progression:</b> <a href="https://www.isula.me/" target="_blank">isula.me</a>
-            </p>
-            <img src="https://komarev.com/ghpvc/?username=heyisula&label=Profile%20views&color=FF3399&style=flat-square" alt="Profile views" />
-          </td>
-        </tr>
-      </table>
+    <td align="center" valign="middle" width="70%">
+      <h1 style="margin-top: 0; margin-bottom: 8px;">Out Here Rewriting The Matrix</h1>
+      <p style="margin-top: 0; margin-bottom: 12px;"><b>Anime obsessive · Meme trafficker · Chaotic coder</b></p>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=FF3399&center=true&vCenter=true&width=480&height=30&lines=Guessing+hyperparameters+until+it+works;Training+models%2C+not+expectations;Powered+by+coffee+and+anime+OSTs"
+           style="max-width: 100%;" alt="Typing SVG" />
+      <p style="margin-top: 10px; margin-bottom: 15px;">
+        <b>Arc Progression:</b> <a href="https://www.isula.me/" target="_blank">isula.me</a>
+      </p>
+      <img src="https://komarev.com/ghpvc/?username=heyisula&label=Profile%20views&color=FF3399&style=flat-square" alt="Profile views" />
     </td>
   </tr>
 </table>
