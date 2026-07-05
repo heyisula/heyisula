@@ -1,83 +1,136 @@
-<p align="center"><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWF6d2JoZmhwdWR3MWNzMmsyanppdDBwcW15b2FndzBsa2pmcm43cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dISk854tQqGKHFm88e/giphy.gif" width="900"/></p>
-<h1 align="center">Out here rewriting the matrix. Anime obsessive, meme trafficker, and chaotic coder</h1>
-
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<div align="center">
+<table cellspacing="0" cellpadding="0" border="0">
   <tr>
-    <td align="left" valign="top" width="55%">
-      <br/>
-      <br/>
-      <p>
-        ⚙️ <strong>I use daily:</strong> <code>.py</code> <code>.ipynb</code> <code>.json</code> <code>.pkl</code> <code>.scaler</code> <code>.ann</code><br/><br/>
-        🔨 <em>"In theory, hyperparameters can be optimized systematically. In practice, I am just guessing numbers until the loss curve goes down."</em><br/><br/>
-        📫 <strong>Slide into my inbox:</strong> <strong>hello.isuladissanayake@gmail.com</strong>
-      </p>
-      <br>
-      <h3 style="margin-top: 25px; margin-bottom: 10px;">🔌 Access Protocol</h3>
-      <a href="https://www.linkedin.com/in/isuladissanayake/" target="_blank">
-        <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-      </a>
-      <a href="https://x.com/heyisula" target="_blank">
-        <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo" />
-      </a>
-      <a href="https://www.instagram.com/hey.isula/" target="_blank">
-        <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo" />
-      </a>
-      <a href="https://web.facebook.com/isuladissanayake/" target="_blank">
-        <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="facebook logo" />
-      </a>
-      <a href="https://medium.com/@heyisula" target="_blank">
-        <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="medium logo" />
-      </a>
-      <br>
-      <br>
-      <br>
-      <h3 style="margin-top: 25px; margin-bottom: 10px;">⚔️ Combat Gear</h3>
-      <table>
+    <td align="center" valign="middle" width="290">
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN2dXZ3YXJob2JmM3l4Ynl3ZDUzb3lqejd0azB3NGdhd2o0bmxoZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" 
+           width="280" 
+           style="border-radius: 12px; display: block; border: none; pointer-events: none;" 
+           alt="Coding Cat" />
+    </td>
+    <td align="center" valign="middle">
+      <table cellspacing="0" cellpadding="0" border="0" style="border: none;">
         <tr>
-          <td><strong>Programming Languages</strong></td>
-          <td><a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="29" height="29"/></a> &nbsp; <a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" width="29" height="29"/></a> &nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="29" height="29"/></a> &nbsp; <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="29" height="29"/></a> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="29" height="29" alt="r logo"/></td>
-        </tr>
-        <tr>
-          <td><strong>Web Development</strong></td>
-          <td><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5" width="29" height="29"/></a> &nbsp; <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3" width="29" height="29"/></a></td>
-        </tr>
-        <tr>
-          <td><strong>AI / Machine Learning</strong></td>
-          <td><a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="29" height="29"/></a> &nbsp; <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="pytorch" width="29" height="29"/></a> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="29" height="29" alt="jupyter logo"/> &nbsp; <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="29" height="29"/></a> &nbsp; <a href="https://opencv.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="29" height="29"/></a> &nbsp; <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="29" height="29"/></a> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="29" height="29" alt="numpy logo"/> &nbsp; <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="29" height="29"/></a></td>
-        </tr>
-        <tr>
-          <td><strong>Databases & Backend</strong></td>
-          <td><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql" width="29" height="29"/></a> &nbsp; <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" width="29" height="29"/></a> &nbsp; <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="29" height="29"/></a></td>
-        </tr>
-        <tr>
-          <td><strong>Hardware & OS</strong></td>
-          <td><a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="29" height="29"/></a> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="29" height="29" alt="windows8 logo"/> &nbsp; <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="arduino" width="29" height="29"/></a></td>
+          <td align="center" style="border: none; padding-left: 15px;">
+            <h1 style="margin-top: 0; margin-bottom: 8px;">Out Here Rewriting The Matrix</h1>
+            <p style="margin-top: 0; margin-bottom: 12px;"><b>Anime obsessive · Meme trafficker · Chaotic coder</b></p>
+            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=FF3399&center=true&vCenter=true&width=560&height=30&lines=Guessing+hyperparameters+until+it+works;Training+models%2C+not+expectations;Powered+by+coffee+and+anime+OSTs" alt="Typing SVG" />
+            <p style="margin-top: 10px; margin-bottom: 15px;">
+              <b>Arc Progression:</b> <a href="https://www.isula.me/" target="_blank">isula.me</a>
+            </p>
+            <img src="https://komarev.com/ghpvc/?username=heyisula&label=Profile%20views&color=FF3399&style=flat-square" alt="Profile views" />
+          </td>
         </tr>
       </table>
     </td>
-    <td align="center" valign="top" width="45%">
-      <img alt="Coding" width="380" src="https://media.giphy.com/media/cDZJ17fbzWVle68VCB/giphy.gif" style="margin-bottom: 20px;">
-      <br/>
-      <img src="https://streak-stats.demolab.com?user=heyisula&locale=en&mode=daily&theme=highcontrast&hide_border=true&border_radius=5&order=3" width="360" alt="streak graph" style="margin-bottom: 15px;" />
-      <br/>
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=heyisula&radius=16&theme=high-contrast&area=true&order=5&custom_title=Contributions&hide_border=true&hide_title=false" width="360" alt="activity-graph graph" />
-    </td>
   </tr>
 </table>
-
+</div>
 <br/>
 
+## Spawn Info
+
+```yaml
+name: Isula Dissanayake
+role: AI / ML Tinkerer · Occasional Web Dev
+daily_drivers: [.py, .ipynb, .json, .pkl, .scaler, .ann]
+philosophy: >
+  In theory, hyperparameters can be optimized systematically.
+  In practice, I am just guessing numbers until the loss curve goes down.
+contact: hello.isuladissanayake@gmail.com
+```
+<br/>
+
+## Summon Me
+
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" />
-  <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=heyisula&label=Profile%20views&color=0e75b6&style=flat" alt="heyisula" />
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isuladissanayake/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/heyisula)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/hey.isula/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://web.facebook.com/isuladissanayake/)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@heyisula)
+
 </div>
 
 <br/>
 
-<h3 align="center">Read my Latest Article on Medium:</h3>
-<div align="center" style="width: 100%">
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@heyisula/0">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@heyisula/0" alt="Medium post 1" />
-  </a>
+## Loadout
+
+<div align="center">
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+</div>
+
+<br/>
+
+## Combat Analytics
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="230">
+<img src="https://streak-stats.demolab.com?user=heyisula&locale=en&mode=daily&theme=highcontrast&hide_border=true&border_radius=8" width="230" alt="streak stats" />
+</td>
+<td align="center" width="230">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=heyisula&radius=8&theme=high-contrast&area=true&hide_border=true&custom_title=Contribution%20Activity" width="230" alt="activity graph" />
+</td>
+<td rowspan="3" align="center" width="260">
+<img src="./github-metrics.svg" width="260" alt="GitHub metrics" />
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heyisula&theme=github_dark" width="230" alt="profile details" />
+</td>
+<td align="center">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=heyisula&theme=github_dark&utcOffset=5.5" width="230" alt="productive time" />
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heyisula&theme=github_dark" width="230" alt="repos per language" />
+</td>
+<td align="center">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heyisula&theme=github_dark" width="230" alt="most commit language" />
+</td>
+</tr>
+</table>
+</div>
+<br/>
+
+## Daily Quests
+
+<div align="center">
+<img src="./profile-3d-contrib/profile-night-green.svg" width="700" alt="3D Contributions" />
+</div>
+
+<br/>
+
+## Latest Drop
+
+<div align="center">
+<a href="https://github-readme-medium-recent-article.vercel.app/medium/@heyisula/0" target="_blank">
+<img width="600" src="https://github-readme-medium-recent-article.vercel.app/medium/@heyisula/0" alt="Latest Medium post" />
+</a>
 </div>
