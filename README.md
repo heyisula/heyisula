@@ -9,6 +9,6 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=heyisula&label=Profile%20views&color=FF3399&style=flat-square" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=heyisula&label=Profile%20views&color=08872B&style=flat-square" alt="Profile views" />
 
 </div>
