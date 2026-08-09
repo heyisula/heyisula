@@ -534,7 +534,7 @@ def build_heatmap_markup(weeks, total_contributions, mode):
     week_count = len(weeks)
     footer_x = 28 + max(0, week_count - 1) * 14 + 11
     parts.append(
-        f'<text x="{footer_x}" y="144" text-anchor="end" class="footer">'
+        f'<text x="{footer_x}" y="168" text-anchor="end" class="footer">'
         f"{'{:,}'.format(total_contributions)} contributions in the last year"
         f' \u2014 current streak {current_streak}d \u2014 longest streak {longest_streak}d</text>'
     )
