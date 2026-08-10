@@ -458,7 +458,7 @@ tspan { white-space:pre; }
 </g>
 <g>
 <text x="760.0" y="28" class="k">OS</text><text x="955.0" y="28" class="v">Windows 11, Linux</text>
-<text x="760.0" y="56" class="k">Uptime</text><text x="955.0" y="56" class="v" id="age_data">21 years, 11 months, 25 days</text>
+<text x="760.0" y="56" class="k">Uptime</text><text x="955.0" y="56" class="v" id="age_data">21 years, 11 months, 26 days</text>
 <text x="760.0" y="84" class="k">Host</text><text x="955.0" y="84" class="v">isula.me</text>
 <text x="760.0" y="112" class="k">Kernel</text><text x="955.0" y="112" class="v">AI / ML Tinkerer, Occasional Web Dev</text>
 <text x="760.0" y="140" class="k">IDE</text><text x="955.0" y="140" class="v">VS Code, Jupyter, PyCharm</text>
