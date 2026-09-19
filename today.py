@@ -448,15 +448,12 @@ def contribution_calendar(username):
     return calendar['totalContributions'], calendar['weeks']
 
 
-def compute_streaks(weeks):
+def compute_streaks(days):
     """
-    Flattens the week/day calendar into a single ordered day list and computes the
-    current streak (consecutive contribution days ending on the most recent day
-    that has data) and the longest streak anywhere in the window.
+    Takes an ordered (by date) list of {'date':..., 'contributionCount':...} dicts
+    and computes the current streak (consecutive contribution days ending on the
+    most recent day present) and the longest streak found anywhere in the list.
     """
-    days = [d for week in weeks for d in week['contributionDays']]
-    days.sort(key=lambda d: d['date'])
-
     longest = current = 0
     for d in days:
         if d['contributionCount'] > 0:
@@ -474,12 +471,65 @@ def compute_streaks(weeks):
     return trailing, longest
 
 
+STREAK_HISTORY_PATH = 'data/contribution_history.json'
+
+
+def load_streak_history():
+    """
+    Loads the ever-growing per-day contribution record this script has built up
+    across every run. GitHub's contributionCalendar API only ever exposes a
+    rolling ~366-day window, so a streak longer than that window is invisible
+    to any script that only looks at the latest API response. Keeping our own
+    running history removes that ceiling: once this has been running for over
+    a year, "longest streak" reflects the account's real history, not just
+    whatever the last API call happened to return.
+    """
+    import json
+    try:
+        with open(STREAK_HISTORY_PATH, 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+
+def merge_streak_history(history, weeks):
+    """
+    Merges the freshly fetched calendar window into the persisted history,
+    keyed by date. Days already in history keep getting overwritten with the
+    latest count (a day's count can still tick up after it was first seen),
+    while days from further back than the API's window stay untouched, which
+    is exactly what lets the recorded history grow past the API's own limit.
+    """
+    for week in weeks:
+        for day in week['contributionDays']:
+            history[day['date']] = day['contributionCount']
+    return history
+
+
+def save_streak_history(history):
+    import json, os
+    os.makedirs(os.path.dirname(STREAK_HISTORY_PATH), exist_ok=True)
+    with open(STREAK_HISTORY_PATH, 'w') as f:
+        json.dump(history, f, indent=2, sort_keys=True)
+
+
+def streaks_from_history(history):
+    """
+    Converts the {date: count} history dict into the ordered list shape
+    compute_streaks expects, then computes current/longest streak over the
+    FULL recorded history (not just the latest ~366-day API window).
+    """
+    days = [{'date': date, 'contributionCount': count} for date, count in history.items()]
+    days.sort(key=lambda d: d['date'])
+    return compute_streaks(days)
+
+
 DARK_HEATMAP_COLORS  = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353']
 LIGHT_HEATMAP_COLORS = ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39']
 MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
 
-def build_heatmap_markup(weeks, total_contributions, mode):
+def build_heatmap_markup(weeks, total_contributions, mode, current_streak, longest_streak):
     """
     Builds the inner SVG markup (month labels, day-of-week labels, one rect per day,
     legend, and footer stats) for the contribution heatmap, matching the layout of a
@@ -534,7 +584,6 @@ def build_heatmap_markup(weeks, total_contributions, mode):
         parts.append(f'<rect x="{60 + i*14}" y="136" width="11" height="11" rx="2.5" fill="{c}"/>')
     parts.append(f'<text x="{60 + len(colors)*14 + 4}" y="144" class="legend-label">More</text>')
 
-    current_streak, longest_streak = compute_streaks(weeks)
     week_count = len(weeks)
     footer_x = 28 + max(0, week_count - 1) * 14 + 11
     parts.append(
@@ -545,7 +594,7 @@ def build_heatmap_markup(weeks, total_contributions, mode):
     return '\n'.join(parts)
 
 
-def update_heatmap_svg(filename, weeks, total_contributions, mode):
+def update_heatmap_svg(filename, weeks, total_contributions, mode, current_streak, longest_streak):
     """
     Replaces the contents of the <g class="heatmap"> group in the given SVG with a
     freshly generated heatmap, preserving that group's existing transform.
@@ -558,7 +607,7 @@ def update_heatmap_svg(filename, weeks, total_contributions, mode):
         return
     for child in list(group):
         group.remove(child)
-    markup = build_heatmap_markup(weeks, total_contributions, mode)
+    markup = build_heatmap_markup(weeks, total_contributions, mode, current_streak, longest_streak)
     wrapper = etree.fromstring(f'<g xmlns="http://www.w3.org/2000/svg">{markup}</g>')
     for child in wrapper:
         group.append(child)
@@ -615,8 +664,17 @@ if __name__ == '__main__':
 
     (total_contributions, weeks), calendar_time = perf_counter(contribution_calendar, USER_NAME)
     formatter('contribution calendar', calendar_time)
-    update_heatmap_svg('dark_mode.svg', weeks, total_contributions, 'dark')
-    update_heatmap_svg('light_mode.svg', weeks, total_contributions, 'light')
+
+    # Persist every day this script has ever seen so "longest streak" isn't
+    # capped at the ~366-day window the contributionCalendar API exposes.
+    history = load_streak_history()
+    history = merge_streak_history(history, weeks)
+    save_streak_history(history)
+    current_streak, longest_streak = streaks_from_history(history)
+    print(f"   streak (from {len(history)}-day history): current {current_streak}d, longest {longest_streak}d")
+
+    update_heatmap_svg('dark_mode.svg', weeks, total_contributions, 'dark', current_streak, longest_streak)
+    update_heatmap_svg('light_mode.svg', weeks, total_contributions, 'light', current_streak, longest_streak)
 
     # move cursor to override 'Calculation times:' with 'Total function time:' and the total function time, then move cursor back
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
